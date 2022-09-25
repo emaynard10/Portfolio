@@ -110,29 +110,29 @@
                                 <i class="fas fa-search-plus fa-2x"></i>
                             </div>
                         </div>
-                        <img class="img-fluid" src="assets/img/portfolio/project2.jpg" alt="" />
+                        <img class="img-fluid" src="assets/img/portfolio/sql2.png" alt="" />
                     </a>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <a class="portfolio-item d-block mx-auto" data-toggle="modal" data-target="#portfolio-modal-3">
                         <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                             <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                                <p>Project 3: API calls with OpenWeather and GoogleMaps </p>
+                                <p>Project 3: Crop Yield Analysis</p>
                                 <i class="fas fa-search-plus fa-2x"></i>
                             </div>
                         </div>
-                        <img class="img-fluid" src="assets/img/portfolio/project3.png" alt="" />
+                        <img class="img-fluid" src="assets/img/portfolio/tableau3.png" alt="" />
                     </a>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <a class="portfolio-item d-block mx-auto" data-toggle="modal" data-target="#portfolio-modal-4">
                         <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                             <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                                <p>Project 4: Extract, Transform, Load (ETL) </p>
+                                <p>Project 4: Unsupervised Machine Learning </p>
                                 <i class="fas fa-search-plus fa-2x"></i>
                             </div>
                         </div>
-                        <img class="img-fluid" src="assets/img/portfolio/project4.jpg" w-300 alt="" />
+                        <img class="img-fluid" src="assets/img/portfolio/ULproject4.png" w-300 alt="" />
                     </a>
                 </div>
                 <div class="col-md-6 col-lg-4">
@@ -376,21 +376,20 @@
                 <div class="row">
                     <div class="col-lg-8 mx-auto">
                         <h2 class="text-secondary text-uppercase mb-0">
-                            Project Name
+                            Project 3: Crop Yield Analysis
                         </h2>
                         <hr class="star-dark mb-5" />
-                        <img class="img-fluid mb-5" src="assets/img/portfolio/project3.png" alt="" />
+                        <img class="img-fluid mb-5" src="assets/img/portfolio/crops3.png" alt="" />
                         <p class="mb-5">
-                            The purpose of this analysis was to generate random coordinates, 
-                            use those coordinates to get the nearby cities, make an API call 
-                            for weather data, and map that data for vacation planning purposes. 
-                            The analysis also generated hotel names in the cities that met the 
-                            vacation search criteria (minimum and maximum temperature requirements 
-                            for the vacation) and plan a driving route to hotels in four cities nearby, 
-                            in this case the four vacation hotels were located in Australia.
+                            The purpose of this analysis was to complete a full group project from data and topic
+                            selection to EDA and data analysis, database creation, and database connection to machine 
+                            learning model. The results were then displayed in a Leaflet map and on a Tableau dashboard.
+                            The project was presented as a group with Google slides. The project analyzes crop yields from
+                            countries around the world and predicts crop yields based on a number of features with a 
+                            multivariate linear regression model.
                         </p>
 
-                        <a class="btn btn-primary portfolio-modal-dismiss" href="https://github.com/emaynard10/World_Weather_Analysis">
+                        <a class="btn btn-primary portfolio-modal-dismiss" href="https://github.com/emaynard10/Crop_Yield_Analysis">
                             View Code</a>
                     </div>
                 </div>
@@ -408,20 +407,23 @@
                 <div class="row">
                     <div class="col-lg-8 mx-auto">
                         <h2 class="text-secondary text-uppercase mb-0">
-                            Project 4: ETL
+                            Project 4: Unsupervised Machine Learning
                         </h2>
                         <hr class="star-dark mb-5" />
-                        <img class="img-fluid mb-5" src="assets/img/portfolio/project4.png" width="200 height=auto" alt="from " />
+                        <img class="img-fluid mb-5" src="assets/img/portfolio/project4.png" width="500 height=auto" alt="from " />
                         <p class="mb-5">
-                            This project uses exploratory data analysis or EDA to scrape movie data from the internet. 
-                            The ETL process cleans files, merges dataframes, and publishes to a SQL database. This code 
-                            creates functions, uses list comprehension, and utilizes regular expressions 
-                            to clean the web data. After cleaning the data step by step, the code was 
-                            refactored to take three files in a function order to automate the pipeline. 
+                            This project uses unsupervised machine learning to cluster data. The project began by preprocessing the 
+                            data with Pandas. This includes cleaning the data and using get_dummies() to convert to numerical values. 
+                            Then scaling the data with StandardScaler from the sklearn library. Then the Principal Component Analysis 
+                            algorithm is applied to reduce the number of features to 3. The K means algorithm is then applied using the 
+                            elbow curve to get the best value for K. Joining the cleaned dataset with the PCA data yields a new dataframe 
+                            with information on crytopcurrencies and their clusters or 'class'. The data is visualized with a 3D scatter 
+                            plot to see the different clusters. Finally, the total coins and total mined coins columns are scaled and fit
+                            to be plotted on a scatter plot.
         
                         </p>
 
-                        <a class="btn btn-primary portfolio-modal-dismiss" href="https://github.com/emaynard10/Movies-ETL">
+                        <a class="btn btn-primary portfolio-modal-dismiss" href="https://github.com/emaynard10/Cryptocurrencies">
                             View Code</a>
                     </div>
                 </div>
@@ -469,7 +471,7 @@
                 <div class="row">
                     <div class="col-lg-8 mx-auto">
                         <h2 class="text-secondary text-uppercase mb-0">
-                            Project 6: Data Visualiztion with Mapbox and Leaflet
+                            Project 6: Data Visualiztion with Mapbox API and Leaflet
                         </h2>
                         <hr class="star-dark mb-5" />
                         <img class="img-fluid mb-5" src="assets/img/portfolio/project6.png" alt="" />
